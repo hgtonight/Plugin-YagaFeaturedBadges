@@ -1,5 +1,5 @@
 <?php if(!defined('APPLICATION')) exit(); ?>
-<h2><?php echo T('Featured Badges'); ?></h2>
+<h1 class="H"><?php echo T('Featured Badges'); ?></h1>
 <?php
 echo $this->Form->Open();
 echo $this->Form->Errors();
